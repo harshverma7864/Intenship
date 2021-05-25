@@ -1,0 +1,746 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 150vh;
+    width: 80vw;
+}
+
+#left-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    height: 100vh;
+}
+
+#right-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    height: 16vh;
+    width: 93vw;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 65vw;
+    top: 6vh;
+    margin: 1vh;
+}
+.right svg{
+    margin:1vh ;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+.ncards{
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.ncard{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+.ncardadd{
+    padding-top: 6vh;
+    margin-left: 5vh;
+    text-align: center;
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(233, 236, 236);
+}
+.brand{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(199, 199, 243);
+    font-weight: bold;
+    font-size: 40px;
+    height: 10vh;
+    padding: 1.7vh;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 2vh;
+    margin-left: -10vh;
+    width: 15vw;
+
+}
+.act:hover{
+    border-left: 7px solid blue;
+    border-radius: 5px;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+
+#lower1{
+    height: 120vh;
+    margin-left: -1vh;
+    width:15vw ;
+    
+}
+#lower1 ul{
+    height: 55vh;
+    background-color: rgb(149 149 137 / 18%);
+}
+ul a{
+    padding: 1.5vh;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+ul a li{
+    padding: 1vh;
+}
+#lower4{
+    padding-left: 10vh;
+}
+.acard{
+    padding: 2vh;
+    color: white;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    height: 25vh;
+    width: 12vw;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+
+.invite{
+    background-color: rgb(206, 205, 205);
+    width: 15vw;
+    height: 33vh;
+    padding-left: 1vh;
+}
+#invite{
+    text-align: center;
+    border-radius: 10px;
+    height: 28vh;
+    width: 14vw;
+    background-color: honeydew;
+}
+
+#lower3{
+    padding-left:7vh;
+    width:30.5vw;
+}
+
+.low{
+    margin: 1vh;
+    width: 22.75vw;
+    height: 85vh;
+}
+
+.top{
+    width: 4vw;
+    height: 17vh;
+}
+
+.cap{
+    height: 10vh;
+    width: 4.5vw;
+    
+}
+.msg{
+    padding: 1.5vw;
+}
+.star{
+    padding: 1.5vw;
+}
+.flash{
+    padding: 1.5vw;
+}
+
+.cards{
+    height: 33vh;
+    width: 24vw;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #cce7fa;;
+    border-radius: 7px;
+    margin: 1vh;
+    height:10vh;
+    width:22.75vw;    
+}
+.card h5{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.s1{
+    padding: 0.7vh;
+    width: 6vw;
+    height: 9vh;
+}
+.s2{
+    padding: 0.5vh;
+    width: 18vw;
+    height: 9vh;
+}
+.s3{
+    padding: 0.7vh;
+    width: 4vw;
+    height: 9vh;
+}
+
+.card2{
+    
+    border: 10px solid grey;
+    height: 23vh;
+    width: 25vw ;
+}
+.card3{
+    
+    border: 10px solid rgb(220, 226, 255);
+    height: 50vh;
+    width: 22vw ;
+}
+#card3{
+    margin-left:-0.5vh;
+    margin-top:-0.5vh;
+    background-color: rgb(217, 217, 248);
+    border-radius: 7px;
+    height: 48vh;
+    width: 21.2vw ;
+    background:url('pie.jpg');
+    background-size: cover;
+}
+.card4{
+    
+    border: 10px solid rgb(220, 226, 255);
+    height: 42vh;
+    width: 31.75vw ;
+}
+#card4{
+    margin-left:-0.5vh;
+    margin-top:-0.5vh;
+    background-color: rgb(251, 251, 253);
+    border-radius: 7px;
+    height: 40vh;
+    width: 31vw ;
+    display: flex;
+    flex-direction: column;
+}
+.card41{
+    padding: 2vh;
+    font-weight: bold ;
+}
+
+.dropdown{
+    float:right;
+}
+
+.dropdown button{
+    color: black;
+    background: transparent;
+}
+.card42{
+    display: inline-block;
+    overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+.card5{
+    padding: 3vh;
+    margin-left: -1vh;
+    margin-top: 5vh;
+    height: 35vh;
+    width: 31.75vw;
+    background-color: rgb(220, 226, 255);
+}
+.btn{
+    background-color:grey ;
+    border-radius:20px ;
+}
+.cardss{
+    display: flex;
+    flex-direction: row;
+}
+.card51{
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1vh;
+    height: 20vh;
+    width: 13vw;
+    border-radius:20px;
+}
+.card512{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+    height: 13vh;
+    width: 12vw;
+    border-bottom:2px solid rgb(221, 220, 221);
+}
+
+.add{
+    margin-top: 8vh;
+    height: 5vh;
+    border-radius: 10px;
+    width: 5vh;
+    border: dotted;
+    border-color: rgb(189, 221, 247);
+    text-align: center;
+    font-size: 20px;
+}
+.search{
+    margin-left: 2vh;
+    float: right;
+}
+.book{
+    color: blue;
+    float: right;
+}
+
+.card6{
+    margin-left: 5vh;
+    margin-top: 2vh;
+    border: 10px solid rgb(220, 226, 255);
+    height: 45vh;
+    width: 26vw ;
+}
+#card6{
+    padding: 2vh;
+    margin-left:-0.5vh;
+    margin-top:-0.5vh;
+    background-color: rgb(251, 251, 253);
+    border-radius: 7px;
+    height: 43vh;
+    width: 25.2vw ;
+   
+}
+.card61{
+    margin: 2vh;
+    border-bottom: 2px solid rgb(220, 226, 255);
+    width: 22vw;
+    height:14vh;
+}
+
+.pr{
+   
+    height: 0.5rem;
+    margin-top: 1.5vh;
+    background-color: blueviolet;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    height: 32vh;
+    padding: 1vh;
+    border-radius: 10px;
+    width: 18vw;
+}
+#box2{
+    margin-top: 5vh;
+    height: 35vh;
+    width: 18vw;
+}
+.card7{
+    border-bottom: 10px solid rgb(169, 192, 243);
+    height: 45vh;
+    display: inline-block;
+    overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+.card71{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(174 175 174 / 46%);
+    padding: 1vh;
+    margin: 1vh;
+    height: 10vh;
+    width: 16vw;
+    border-radius:20px ;
+}
+.card72{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(174 175 174 / 46%);
+    padding: 1vh;
+    margin: 1vh;
+    height: 10vh;
+    width: 16vw;
+    border-radius:20px ;
+}
+#card71{
+
+    background-color: rgb(11, 41, 11);
+    
+}
+.per{
+    color: white;
+    padding-top: 2vh;
+    text-align: center;
+    margin-right: 1vh;
+    background-color: black;
+    height: 8vh; 
+    width: 8vh;
+}
+
+#box3{
+ width: 17vw;
+ height: 33vh;
+ margin-top: 20vh;
+ margin-left: 1vh;
+ border: 10px solid rgb(169, 192, 243);
+}
+.goals{
+    font-weight: bold;
+    font-size: 25px;
+}
+.btng{
+    margin: 1vh;
+    border-radius: 4px;
+}
+
+#goals{
+    display: flex;
+    flex-direction: row;
+}
+
+#goals h6{
+    margin-left: -7vh;
+    margin-top:6vh;
+}
+
+#week{
+    height:3.5vh;
+    width: 16vw;
+    border-radius: 15px;
+    background-color: grey;
+    padding-left: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#week p{
+    margin-right: 3vh;
+}
+
+
+.days{
+    height: 21vh;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+padding: 2vh;
+}
+
+.two{
+    padding: 1.3vh;
+}
+
+.card2 img{
+    width: 24vw;
+    height: 22vh;
+
+}
+
+@media screen and (max-width:1340px){
+    .main{
+        width: 100vw;
+    }
+  
+    #card3{
+        height: 34vh;
+    width: 21.2vw;
+    }
+    #week{
+        width: 22vw;
+    }
+    #box1{
+        width: 23vw;
+    }
+    #box2{
+        width: 23vw;
+    }
+    #box3{
+        width: 23vw;
+    }
+    .card71{
+        width: 20vw;
+    }
+    .card72{
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width:1340px){
+.main{
+    height: 196vh;
+}
+#left-sidebar{
+    width: 6vw;
+}
+#lower1{
+    width: 21vw;
+}
+.brand{
+    height: 8vh;
+    width: 34vw;
+    margin-left: -4vh;
+
+}
+.card6{
+    margin-left: 0vh;
+    width: 45vw;
+}
+#card6{
+    height: 44vh;
+    width: 44.2vw;}
+
+#box1 {
+    width: 42vw;
+}
+#week {
+    width: 40vw;
+}
+.card71 {
+    width: 39vw;
+}
+.card72 {
+    width: 39vw;
+}
+#card3 {
+    height: 26vh;
+    width: 33.2vw;
+}
+.card3{
+    height: 27vh;
+}
+.invite{
+    width: 21vw;
+    height: 22vh;
+}
+#invite{
+    height: 21vh;
+    width: 18vw;
+}
+#box3 {
+    width: 39vw;
+    height: 23vh;
+}
+
+
+
+#lower4 {
+    padding-left: 20vh;
+}
+.card2 img{
+    width: 31vw;
+    height: 22vh;
+}
+.s1{
+    width: 8vw;
+    height: 11vh;
+}
+.card5{
+    height: 24vh;
+    width: 50.75vw;
+}
+.card51{
+    height: 13vh;
+    width: 83vw;
+}
+.s2{
+    width: 13vw;
+    height: 9vh;
+}
+.card{
+    margin: 0vh;
+    height: 10vh;
+    width: 28.75vw;
+}
+.card2{
+    width: 32vw;
+}
+}
+
+@media screen and (max-width:777px){
+.lower{
+    display: flex;
+    flex-direction: column;
+}
+#lower1{
+    visibility: hidden;
+    width: 50vw;
+    height: 110vh;
+}
+#lower2{
+    width: 50vw;
+    height: 110vh;
+
+}
+#lower3{
+    width: 50vw;
+    height: 120vh;
+
+}
+#lower4{
+    width: 50vw;
+    height: 100vh;
+
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+
+
+@media screen and (max-width:635px){
+    #lower1{
+        width: 5vh;
+    }
+    .brand {
+        height: 12vh;
+        width: 52vw;}
+
+    #lower2{
+        width: 99vw;
+    }
+    .cards{
+        width: 98vw;
+    }
+    .card{
+        
+    width: 85.75vw;
+
+    }
+    .s1{
+        width: 22vw;
+    }
+
+    .s2{
+        width: 38vw;
+    }
+    .s3{
+        padding: 1.7vh;
+        width: 14vw;
+    }
+    .card2 img {
+        width: 97vw;}
+        .card2 {
+            width: 99vw;
+        }
+        .card3{
+            height: 39vh;
+            width: 73vw;
+        }
+        #card3 {
+            height: 37vh;
+            width: 71.2vw;        }
+
+        #lower4 {
+            padding-left: 5vh;
+            width: 77vw;
+            height: 103vh;
+        }
+        #lower3 {
+            width: 73vw;
+
+            padding-left: 0vh;
+        }  
+        #card4{
+            width: 141vw;
+            height: 41vh;
+        }      
+        .card4{
+            
+    width: 142.75vw;
+
+        }
+        .card5{
+            width: 122.75vw;
+            height: 27vh;
+        }
+        .card6{
+            width: 129vw;
+        }
+        #card6{
+
+            width: 127.2vw;
+        }
+        .card61{
+            width: 60vw;
+        }
+#lower4{
+    width: 60vw;
+}
+#week {
+    width: 72vw;
+}
+#box1 {
+    width: 77vw;
+}
+#box2 {
+    width: 110vw;
+}
+
+.card71 {
+    width: 80vw;
+}.card72 {
+    width: 80vw;
+}
+#box3 {
+    width: 84vw;}
+    #goals h6 {
+        margin-left: 5vh;
+        margin-bottom: 2vh;
+    }
+
+}
+
+
