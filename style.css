@@ -655,11 +655,15 @@ height: 120vh;
         width: 99vw;
     }
     .cards{
+        
+    height: 38vh;
+
         width: 98vw;
     }
     .card{
-        margin-bottom: 5vh;
-    width: 85.75vw;
+        height: 12vh;
+        width: 85.75vw;
+        margin: 2vh;
 
     }
     .s1{
