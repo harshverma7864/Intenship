@@ -642,13 +642,15 @@ padding: 2vh;
 
 @media screen and (max-width:635px){
     #lower1{
-        width: 5vh;
+        width: 10vh;
+        height: 120vh;
     }
     .brand {
         height: 12vh;
         width: 52vw;}
 
     #lower2{
+        height: 120vh;
         width: 99vw;
     }
     .cards{
@@ -686,7 +688,7 @@ padding: 2vh;
         #lower4 {
             padding-left: 5vh;
             width: 77vw;
-            height: 103vh;
+            height: 120vh;
         }
         #lower3 {
             width: 73vw;
@@ -703,8 +705,8 @@ padding: 2vh;
 
         }
         .card5{
-            width: 122.75vw;
-            height: 27vh;
+            width: 145.75vw;
+            height: 34vh;
         }
         .card6{
             width: 129vw;
@@ -714,10 +716,13 @@ padding: 2vh;
             width: 127.2vw;
         }
         .card61{
-            width: 60vw;
-        }
+            width: 73vw;        }
 #lower4{
-    width: 60vw;
+    
+    height: 120vh;
+    width: 111vw;
+    margin-top: 10vh;
+
 }
 #week {
     width: 72vw;
