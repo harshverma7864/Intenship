@@ -644,7 +644,7 @@ padding: 2vh;
     #lower1{
         
     width: 13vh;
-height: 120vh;
+height: 140vh;
     }
     .brand {
         height: 16vh;
@@ -652,11 +652,11 @@ height: 120vh;
 
     #lower2{
         height: 120vh;
-        width: 99vw;
+        width: 140vw;
     }
     .cards{
         
-    height: 60vh;
+    height: 55vh;
 
         width: 98vw;
     }
@@ -692,11 +692,11 @@ margin: 1vh;
         #lower4 {
             padding-left: 5vh;
             width: 77vw;
-            height: 120vh;
+            height: 140vh;
         }
         #lower3 {
             width: 73vw;
-
+            height: 140vh;
             padding-left: 0vh;
         }  
         #card4{
