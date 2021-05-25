@@ -656,15 +656,14 @@ height: 120vh;
     }
     .cards{
         
-    height: 38vh;
+    height: 45vh;
 
         width: 98vw;
     }
     .card{
-        height: 12vh;
+        height: 14vh;
         width: 85.75vw;
-        margin: 2vh;
-
+margin: 1vh;
     }
     .s1{
         width: 22vw;
